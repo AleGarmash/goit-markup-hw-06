@@ -852,3 +852,85 @@ address {
 	height: 11px;
 	fill: currentColor;
 }
+
+/* ____________________________Form____________________________ */
+.form {
+	width: 448px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-field-title {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 12px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+
+	letter-spacing: 0.03em;
+
+	color: #212121;
+}
+
+.form-field {
+	outline: 1px solid blue;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.form-field-label {
+	margin-bottom: 4px;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+
+	color: #757575;
+}
+.form-field-input {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	width: 448px;
+	height: 40px;
+
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+}
+.textarea {
+	resize: none;
+	height: 120px;
+}
+.form-field-input::placeholder {
+	padding-left: 16px;
+	padding-top: 12px;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.01em;
+
+	color: rgba(117, 117, 117, 0.5);
+}
+
+.checkbox {
+	display: flex;
+
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+
+	margin-top: 20px;
+}
+.checkbox-label {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.7;
+
+	letter-spacing: 0.03em;
+
+	color: #757575;
+}
+.checkbox-style {
+	text-decoration-line: underline;
+
+	color: #2196f3;
+}
