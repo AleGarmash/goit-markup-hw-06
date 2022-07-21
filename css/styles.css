@@ -1092,3 +1092,10 @@ address {
 .form-btn:focus .form-btn-icon {
 	fill: var(--primary-background-color);
 }
+.advantages-wrapper {
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.advantages-wrapper:hover {
+	transform: scale(1.03);
+	box-shadow: 0px 5px 7px -1px rgba(0, 0, 0, 0.17);
+}
