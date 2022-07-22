@@ -662,8 +662,6 @@ address {
 /*____________________ Подпишитесь на рассылку____________________ */
 
 .mail-chimp {
-	display: flex;
-	flex-direction: column;
 	margin-left: auto;
 }
 .mail-chimp-input {
@@ -863,6 +861,7 @@ address {
 }
 
 .modal {
+	padding: 40px;
 	position: absolute;
 	z-index: 4;
 	top: 50%;
@@ -917,7 +916,7 @@ address {
 
 .form-field-title {
 	text-align: center;
-	margin-top: 40px;
+
 	margin-bottom: 12px;
 	font-weight: 700;
 	font-size: 20px;
@@ -948,7 +947,7 @@ address {
 	padding-left: 41px;
 
 	width: 100%;
-	width: 448px;
+	outline: transparent;
 	height: 40px;
 
 	border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1059,10 +1058,9 @@ address {
 	justify-content: center;
 	margin: 0 auto;
 
-	padding: 0;
 	padding: 10px 56px;
 	margin-top: 30px;
-	margin-bottom: 40px;
+
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.8;
